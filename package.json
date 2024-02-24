@@ -1,13 +1,30 @@
 {
-  "name": "starter-micro-api",
-  "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-  }
+   "name": "dieseserver",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "server.js",
+      "devStart": "nodemon server.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@sentry/node": "^7.102.1",
+      "@sentry/profiling-node": "^7.102.1",
+      "axios": "^1.6.7",
+      "bcrypt": "^5.1.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "expo-server-sdk": "^3.7.0",
+      "express": "^4.18.2",
+      "helmet": "^7.0.0",
+      "joi": "^17.9.2",
+      "jsonwebtoken": "^9.0.1",
+      "mongoose": "^7.4.0",
+      "nodemon": "^3.0.1",
+      "winston": "^3.11.0"
+   }
 }
